@@ -2,10 +2,7 @@ package test;
 
 import org.junit.jupiter.api.Test;
 import amusements.SinglePairOrSingleOdd;
-
 import org.junit.Assert;
-
-
 
 class SinglePairOrSingleOddTest{
 
@@ -23,5 +20,4 @@ class SinglePairOrSingleOddTest{
 		Assert.assertEquals(5, test1.findPairOrOdd(exampleTest3));
 		Assert.assertEquals(10, test1.findPairOrOdd(exampleTest4));
 	}
-
 }
