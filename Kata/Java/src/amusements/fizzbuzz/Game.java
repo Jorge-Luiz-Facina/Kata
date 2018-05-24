@@ -19,9 +19,9 @@ public class Game {
     }
             
     public String fizzBuzz(int value){
-        for(Rule regra1 : rule){
-            if(regra1.checkValue(value)){
-                return regra1.getValue();
+        for(Rule rule1 : rule){
+            if(rule1.checkValue(value)){
+                return rule1.getValue();
             }     
         }
         return String.valueOf(value);    
